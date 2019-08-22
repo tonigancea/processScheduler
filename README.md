@@ -13,7 +13,7 @@ This C project implements 4 kinds of scheduling algorithms using a stack and two
 * **Round Robin - cyclic executive** - used for *interactive* systems (we want fairness).
 * **Round Robin - with priorities** - used for *interactive* systems (we want fairness).
 
-Lets call `quantum` = how many ticks a process needs to be completed.
+Lets call `quantum` = how many *ticks* a process needs to be completed. We will define a *tick* later.
 The program reads commands from an `input_file` and writes output to another file.
 
 ### Commands
