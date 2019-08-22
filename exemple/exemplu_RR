@@ -1,0 +1,162 @@
+S-a primit comanda multipleadd.
+	 Vom adauga fiecare proces in READY, unul dupa altul.
+	Incarcam procesul P1 in coada READY.
+	Incarcam procesul P2 in coada READY.
+	Incarcam procesul P3 in coada READY.
+	Incarcam procesul P4 in coada READY.
+S-a primit comanda tick (explicit sau implicit)
+	Adaugam in RUNNING un nou proces din coada READY.
+S-a primit comanda wait.
+	Mutam procesul din RUNNING in coada WAITING.
+S-a primit comanda tick (explicit sau implicit)
+	Adaugam in RUNNING un nou proces din coada READY.
+S-a primit comanda wait.
+	Mutam procesul din RUNNING in coada WAITING.
+S-a primit comanda tick (explicit sau implicit)
+	Adaugam in RUNNING un nou proces din coada READY.
+S-a primit comanda wait.
+	Mutam procesul din RUNNING in coada WAITING.
+S-a primit comanda tick (explicit sau implicit)
+	Adaugam in RUNNING un nou proces din coada READY.
+S-a primit comanda wait.
+	Mutam procesul din RUNNING in coada WAITING.
+S-a primit comanda tick (explicit sau implicit)
+	Nu exista procese in READY pe care sa le adaugam in RUNNING.
+S-a primit comanda show.
+	Nu exista procese in RUNNING! Afisam doar linie goala.
+S-a primit comanda tick (explicit sau implicit)
+	Nu exista procese in READY pe care sa le adaugam in RUNNING.
+S-a primit comanda show.
+	Nu exista procese in RUNNING! Afisam doar linie goala.
+S-a primit comanda tick (explicit sau implicit)
+	Nu exista procese in READY pe care sa le adaugam in RUNNING.
+S-a primit comanda show.
+	Nu exista procese in RUNNING! Afisam doar linie goala.
+S-a primit comanda tick (explicit sau implicit)
+	Nu exista procese in READY pe care sa le adaugam in RUNNING.
+S-a primit comanda show.
+	Nu exista procese in RUNNING! Afisam doar linie goala.
+S-a primit comanda event.
+	Incarcam procesul P1 in coada READY.
+S-a primit comanda tick (explicit sau implicit)
+	Adaugam in RUNNING un nou proces din coada READY.
+S-a primit comanda event.
+	Incarcam procesul P2 in coada READY.
+S-a primit comanda tick (explicit sau implicit)
+	Scadem timpul de viata al procesului P1 cu 1.
+S-a primit comanda event.
+	Incarcam procesul P3 in coada READY.
+S-a primit comanda tick (explicit sau implicit)
+	Scadem timpul de viata al procesului P1 cu 1.
+S-a primit comanda event.
+	Incarcam procesul P4 in coada READY.
+S-a primit comanda tick (explicit sau implicit)
+	Scadem timpul de viata al procesului P1 cu 1.
+S-a primit comanda tick (explicit sau implicit)
+	Scadem timpul de viata al procesului P1 cu 1.
+S-a primit comanda show.
+	Afisam informatii despre procesul curent din RUNNING.
+S-a primit comanda tick (explicit sau implicit)
+	Scadem timpul de viata al procesului P1 cu 1.
+	Procesul P1 si-a atins cuanta. Trebuie mutat in READY.
+	Adaugam in RUNNING un nou proces din coada READY.
+S-a primit comanda show.
+	Afisam informatii despre procesul curent din RUNNING.
+S-a primit comanda tick (explicit sau implicit)
+	Scadem timpul de viata al procesului P2 cu 1.
+S-a primit comanda add.
+	Incarcam procesul P5 in coada READY.
+S-a primit comanda tick (explicit sau implicit)
+	Scadem timpul de viata al procesului P2 cu 1.
+S-a primit comanda tick (explicit sau implicit)
+	Scadem timpul de viata al procesului P2 cu 1.
+S-a primit comanda show.
+	Afisam informatii despre procesul curent din RUNNING.
+S-a primit comanda tick (explicit sau implicit)
+	Scadem timpul de viata al procesului P2 cu 1.
+	Procesul P2 e gata.
+	Adaugam in RUNNING un nou proces din coada READY.
+S-a primit comanda show.
+	Afisam informatii despre procesul curent din RUNNING.
+S-a primit comanda wait.
+	Mutam procesul din RUNNING in coada WAITING.
+S-a primit comanda tick (explicit sau implicit)
+	Adaugam in RUNNING un nou proces din coada READY.
+S-a primit comanda tick (explicit sau implicit)
+	Scadem timpul de viata al procesului P4 cu 1.
+S-a primit comanda show.
+	Afisam informatii despre procesul curent din RUNNING.
+S-a primit comanda wait.
+	Mutam procesul din RUNNING in coada WAITING.
+S-a primit comanda tick (explicit sau implicit)
+	Adaugam in RUNNING un nou proces din coada READY.
+S-a primit comanda tick (explicit sau implicit)
+	Scadem timpul de viata al procesului P1 cu 1.
+S-a primit comanda show.
+	Afisam informatii despre procesul curent din RUNNING.
+S-a primit comanda tick (explicit sau implicit)
+	Scadem timpul de viata al procesului P1 cu 1.
+	Procesul P1 e gata.
+	Adaugam in RUNNING un nou proces din coada READY.
+S-a primit comanda show.
+	Afisam informatii despre procesul curent din RUNNING.
+S-a primit comanda event.
+	Incarcam procesul P4 in coada READY.
+S-a primit comanda tick (explicit sau implicit)
+	Scadem timpul de viata al procesului P5 cu 1.
+S-a primit comanda tick (explicit sau implicit)
+	Scadem timpul de viata al procesului P5 cu 1.
+S-a primit comanda show.
+	Afisam informatii despre procesul curent din RUNNING.
+S-a primit comanda tick (explicit sau implicit)
+	Scadem timpul de viata al procesului P5 cu 1.
+S-a primit comanda show.
+	Afisam informatii despre procesul curent din RUNNING.
+S-a primit comanda tick (explicit sau implicit)
+	Scadem timpul de viata al procesului P5 cu 1.
+S-a primit comanda show.
+	Afisam informatii despre procesul curent din RUNNING.
+S-a primit comanda tick (explicit sau implicit)
+	Scadem timpul de viata al procesului P5 cu 1.
+	Procesul P5 si-a atins cuanta. Trebuie mutat in READY.
+	Adaugam in RUNNING un nou proces din coada READY.
+S-a primit comanda show.
+	Afisam informatii despre procesul curent din RUNNING.
+S-a primit comanda tick (explicit sau implicit)
+	Scadem timpul de viata al procesului P4 cu 1.
+S-a primit comanda show.
+	Afisam informatii despre procesul curent din RUNNING.
+S-a primit comanda tick (explicit sau implicit)
+	Scadem timpul de viata al procesului P4 cu 1.
+S-a primit comanda tick (explicit sau implicit)
+	Scadem timpul de viata al procesului P4 cu 1.
+S-a primit comanda tick (explicit sau implicit)
+	Scadem timpul de viata al procesului P4 cu 1.
+S-a primit comanda tick (explicit sau implicit)
+	Scadem timpul de viata al procesului P4 cu 1.
+	Procesul P4 si-a atins cuanta. Trebuie mutat in READY.
+	Adaugam in RUNNING un nou proces din coada READY.
+S-a primit comanda tick (explicit sau implicit)
+	Scadem timpul de viata al procesului P5 cu 1.
+S-a primit comanda tick (explicit sau implicit)
+	Scadem timpul de viata al procesului P5 cu 1.
+	Procesul P5 e gata.
+	Adaugam in RUNNING un nou proces din coada READY.
+S-a primit comanda tick (explicit sau implicit)
+	Scadem timpul de viata al procesului P4 cu 1.
+S-a primit comanda show.
+	Afisam informatii despre procesul curent din RUNNING.
+S-a primit comanda tick (explicit sau implicit)
+	Scadem timpul de viata al procesului P4 cu 1.
+S-a primit comanda tick (explicit sau implicit)
+	Scadem timpul de viata al procesului P4 cu 1.
+S-a primit comanda tick (explicit sau implicit)
+	Scadem timpul de viata al procesului P4 cu 1.
+	Procesul P4 e gata.
+	Nu exista procese in READY pe care sa le adaugam in RUNNING.
+S-a primit comanda tick (explicit sau implicit)
+	Nu exista procese in READY pe care sa le adaugam in RUNNING.
+S-a primit comanda tick (explicit sau implicit)
+	Nu exista procese in READY pe care sa le adaugam in RUNNING.
+S-a primit comanda show.
+	Nu exista procese in RUNNING! Afisam doar linie goala.

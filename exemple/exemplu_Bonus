@@ -1,0 +1,78 @@
+S-a primit comanda multipleadd.
+	 Vom adauga fiecare proces in READY, unul dupa altul.
+	Incarcam procesul P1 in coada READY cu prioritatea 3.
+	Incarcam procesul P2 in coada READY cu prioritatea 5.
+	Incarcam procesul P3 in coada READY cu prioritatea 5.
+	Incarcam procesul P4 in coada READY cu prioritatea 4.
+	Incarcam procesul P5 in coada READY cu prioritatea 1.
+S-a primit comanda tick (explicit sau implicit)
+	Adaugam in RUNNING un nou proces din coada READY.
+S-a primit comanda show.
+	Afisam informatii despre procesul curent din RUNNING.
+S-a primit comanda tick (explicit sau implicit)
+	Scadem timpul de viata al procesului P2 cu 1.
+S-a primit comanda show.
+	Afisam informatii despre procesul curent din RUNNING.
+S-a primit comanda tick (explicit sau implicit)
+	Scadem timpul de viata al procesului P2 cu 1.
+	Procesul P2 si-a atins cuanta. Trebuie mutat in READY.
+	BONUS: Procesul curent a fost scos din RUNNING o data.
+	Adaugam in RUNNING un nou proces din coada READY.
+S-a primit comanda show.
+	Afisam informatii despre procesul curent din RUNNING.
+S-a primit comanda tick (explicit sau implicit)
+	Scadem timpul de viata al procesului P3 cu 1.
+S-a primit comanda wait.
+	BONUS: Procesul curent a intrat in WAIT o data.
+	Mutam procesul din RUNNING in coada WAITING.
+S-a primit comanda tick (explicit sau implicit)
+	Adaugam in RUNNING un nou proces din coada READY.
+S-a primit comanda tick (explicit sau implicit)
+	Scadem timpul de viata al procesului P2 cu 1.
+S-a primit comanda show.
+	Afisam informatii despre procesul curent din RUNNING.
+S-a primit comanda tick (explicit sau implicit)
+	Scadem timpul de viata al procesului P2 cu 1.
+	Procesul P2 si-a atins cuanta. Trebuie mutat in READY.
+	BONUS: Procesul curent a fost scos din RUNNING de doua ori. Ii scadem prioritatea.
+	Adaugam in RUNNING un nou proces din coada READY.
+S-a primit comanda show.
+	Afisam informatii despre procesul curent din RUNNING.
+S-a primit comanda tick (explicit sau implicit)
+	Scadem timpul de viata al procesului P4 cu 1.
+S-a primit comanda show.
+	Afisam informatii despre procesul curent din RUNNING.
+S-a primit comanda multipleadd.
+	 Vom adauga fiecare proces in READY, unul dupa altul.
+	Incarcam procesul P10 in coada READY cu prioritatea 4.
+	Incarcam procesul P11 in coada READY cu prioritatea 2.
+	Incarcam procesul P12 in coada READY cu prioritatea 2.
+S-a primit comanda tick (explicit sau implicit)
+	Scadem timpul de viata al procesului P4 cu 1.
+	Procesul P4 si-a atins cuanta. Trebuie mutat in READY.
+	BONUS: Procesul curent a fost scos din RUNNING o data.
+	Adaugam in RUNNING un nou proces din coada READY.
+S-a primit comanda tick (explicit sau implicit)
+	Scadem timpul de viata al procesului P2 cu 1.
+S-a primit comanda tick (explicit sau implicit)
+	Scadem timpul de viata al procesului P2 cu 1.
+	Procesul P2 si-a atins cuanta. Trebuie mutat in READY.
+	BONUS: Procesul curent a fost scos din RUNNING o data.
+	Adaugam in RUNNING un nou proces din coada READY.
+S-a primit comanda tick (explicit sau implicit)
+	Scadem timpul de viata al procesului P10 cu 1.
+S-a primit comanda tick (explicit sau implicit)
+	Scadem timpul de viata al procesului P10 cu 1.
+	Procesul P10 e gata.
+	Adaugam in RUNNING un nou proces din coada READY.
+S-a primit comanda show.
+	Afisam informatii despre procesul curent din RUNNING.
+S-a primit comanda tick (explicit sau implicit)
+	Scadem timpul de viata al procesului P4 cu 1.
+S-a primit comanda tick (explicit sau implicit)
+	Scadem timpul de viata al procesului P4 cu 1.
+	Procesul P4 si-a atins cuanta. Trebuie mutat in READY.
+	BONUS: Procesul curent a fost scos din RUNNING de doua ori. Ii scadem prioritatea.
+	Adaugam in RUNNING un nou proces din coada READY.
+S-a primit comanda show.
+	Afisam informatii despre procesul curent din RUNNING.

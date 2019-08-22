@@ -1,0 +1,19 @@
+TEMA 1 SD - GANCEA IONATAN OCTAVIAN - 313CC
+
+Acest README explica inplementarea temei 1.
+
+Gandire: Am o stiva si 2 cozi. Ca si element in stive si cozi, am un pointer la o structura de tip proces. Aceasta structura contine numele procesului, timpul ramas, prioritatea, numarul de preemptari si numarul de eventuri asupra lui.
+
+Running = o stiva
+Ready = o coada
+Waiting = o coada
+
+Intai se inregistreaza datele de pe prima linie. 
+Apoi se proceseaza comenzile, se adauga informatiile in structura
+de tip proces care este adaugata in coada ready.
+In functie de inputul de la prima linie, se executa planificarea ceruta. Planificarile folosesc operatiile clasice cu stive si cozi
+pentru a muta procesele dintr-o parte in alta. Pentru operatii mai
+complicate in cozi (cautarea procesului cu prioritatea cea mai mare, cautarea procesului cerut de event in lista de waiting, etc) am implementat functii separate care intai gasesc procesul respectiv, ii fac o clona, si apoi elibereaza complet nodul din
+coada si leaga nodurile invecinate.
+Trecerea timpului (si crestearea contorului) este implementata
+intr-o functie separata.

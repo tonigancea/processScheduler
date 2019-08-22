@@ -1,0 +1,50 @@
+S-a primit comanda add.
+	Incarcam procesul P1 in coada READY.
+S-a primit comanda tick (explicit sau implicit)
+	Adaugam in RUNNING un nou proces din coada READY.
+S-a primit comanda add.
+	Incarcam procesul P2 in coada READY.
+S-a primit comanda tick (explicit sau implicit)
+	Scadem timpul de viata al procesului P1 cu 1.
+S-a primit comanda add.
+	Incarcam procesul P3 in coada READY.
+S-a primit comanda tick (explicit sau implicit)
+	Scadem timpul de viata al procesului P1 cu 1.
+S-a primit comanda wait.
+	Mutam procesul din RUNNING in coada WAITING.
+S-a primit comanda tick (explicit sau implicit)
+	Adaugam in RUNNING un nou proces din coada READY.
+S-a primit comanda tick (explicit sau implicit)
+	Scadem timpul de viata al procesului P3 cu 1.
+S-a primit comanda show.
+	Afisam informatii despre procesul curent din RUNNING.
+S-a primit comanda wait.
+	Mutam procesul din RUNNING in coada WAITING.
+S-a primit comanda tick (explicit sau implicit)
+	Adaugam in RUNNING un nou proces din coada READY.
+S-a primit comanda tick (explicit sau implicit)
+	Scadem timpul de viata al procesului P2 cu 1.
+S-a primit comanda show.
+	Afisam informatii despre procesul curent din RUNNING.
+S-a primit comanda tick (explicit sau implicit)
+	Scadem timpul de viata al procesului P2 cu 1.
+S-a primit comanda show.
+	Afisam informatii despre procesul curent din RUNNING.
+S-a primit comanda show.
+	Afisam informatii despre procesul curent din RUNNING.
+S-a primit comanda tick (explicit sau implicit)
+	Scadem timpul de viata al procesului P2 cu 1.
+S-a primit comanda event.
+	Incarcam procesul P1 in coada READY.
+S-a primit comanda tick (explicit sau implicit)
+	Scadem timpul de viata al procesului P2 cu 1.
+S-a primit comanda tick (explicit sau implicit)
+	Scadem timpul de viata al procesului P2 cu 1.
+	Procesul P2 e gata.
+	Adaugam in RUNNING un nou proces din coada READY.
+S-a primit comanda show.
+	Afisam informatii despre procesul curent din RUNNING.
+S-a primit comanda tick (explicit sau implicit)
+	Scadem timpul de viata al procesului P1 cu 1.
+S-a primit comanda show.
+	Afisam informatii despre procesul curent din RUNNING.
